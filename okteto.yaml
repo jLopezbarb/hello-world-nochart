@@ -10,7 +10,7 @@ build:
 #   - name: deploy chart
 #     command: |
 #       set -ex
-#       if [ "$DEPLOY" != "false" ]; then okteto pipeline deploy --wait=false --repository https://github.com/okteto-community/hello-world-chart \
+#       if [ "$DEPLOY" != "false" ]; then okteto pipeline deploy --wait=false --repository https://github.com/jlopezbarb/hello-world-chart \
 #         --branch main \
 #         --var HELLO_WORLD_IMAGE_TAG=$OKTETO_BUILD_HELLO_WORLD_SHA; fi
 
